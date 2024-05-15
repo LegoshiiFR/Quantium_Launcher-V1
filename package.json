@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.5",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "Quantium_Launcher",
+    "preductname": "Quantium Launcher",
+    "version": "0.1.2",
+    "description": "Launcher Mincraft pour Quantium, serveur Minecraft RP Moddée.",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Legoshii Inc",
+        "email": "contact@legoshii.com",
+        "url": "https://legoshii.com"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://quantium.legoshii.com/launcher/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=./assets/images/icon.ico"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "electron-updater": "^6.1.8",
-        "minecraft-java-core": "^3.10.1",
+        "minecraft-java-core": "^3.10.4",
         "node-bdd": "^2.0.3",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Quantium-Minecraft-RP-Serveur/Quantium_Laucnher_V1.git"
     }
 }
