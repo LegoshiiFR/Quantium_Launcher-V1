@@ -22,7 +22,10 @@ img {
     transition: opacity .3s, top 1.5s;
     opacity: 0;
 }
-
+.container {
+    display: flex;
+    align-items: center;
+}
 .splash.opacity {
     opacity: 1;
 }
