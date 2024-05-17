@@ -4,14 +4,7 @@
 
 [<p align="center">]()
 ![GitHub all releases](https://img.shields.io/github/downloads/LegoshiiFR/Quantium_Launcher-V1/total?style=for-the-badge)
-![Discord](https://img.shields.io/discord/:serverId?style=for-the-badge)
-
-
-<p align="center">
-    <a href="http://discord.luuxis.fr">
-        <img src="https://invidget.switchblade.xyz/e9q7Yr2cuQ">
-    </a>
-</p>
+![Discord](https://img.shields.io/discord/1176424813351403540?style=for-the-badge)
 
 
 ### **<ins><p align="center">Fonctionnalitées du launcher :</p>**
