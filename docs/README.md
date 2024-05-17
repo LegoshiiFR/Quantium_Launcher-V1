@@ -3,12 +3,9 @@
 <h1 align="center">Quantium Launcher</h1>
 
 [<p align="center">]()
-![GitHub all releases](https://img.shields.io/github/downloads/LegoshiiFR/Quantium_Launcher-V1/total)
-![Discord](https://img.shields.io/discord/819729377650278420?style=for-the-badge)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/luuxis/Selvania-Launcher?style=for-the-badge)
-[<p align="center">]()
-![GitHub forks](https://img.shields.io/github/forks/luuxis/Selvania-Launcher?style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/luuxis/Selvania-Launcher?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/LegoshiiFR/Quantium_Launcher-V1/total?style=for-the-badge)
+![Discord](https://img.shields.io/discord/:serverId?style=for-the-badge)
+
 
 <p align="center">
     <a href="http://discord.luuxis.fr">
@@ -16,13 +13,6 @@
     </a>
 </p>
 
----
-### **<ins><p align="center">Conditions d'utilisation:</p>**
-- Pour utiliser le code vous devez faire un fork du projet.
-- Pour utiliser le code votre code doit tout le temps être public.
-- Pour utiliser le code toute mention originale de la licence doit être gardé.
-- Pour utiliser le code vous devez garder la licence originale.
----
 
 ### **<ins><p align="center">Fonctionnalitées du launcher :</p>**
 
@@ -51,11 +41,6 @@
     - Si vous avez installé une version incompatible de Java, nous installerons la bonne pour vous.
     
     - Vous n'avez pas besoin d'avoir Java installé pour exécuter le launcher.
-
-Ce n'est pas une liste exhaustive. Installez le launcher pour voir tout ce qu'il peut faire !
-
-Vous aimez le projet ? Laissez une étoile ⭐ sur le repo !
-
 ---
 
 ### **<ins><p align="center">Téléchargement :</p>**
@@ -72,9 +57,9 @@ Si vous téléchargez à partir des Releases, sélectionnez le programme d'insta
 
  Plateforme | Fichier |
 | -------- | ---- |
-| Windows x64 | `Selvania-Launcher-win-x64.exe ` |
-| macOS x64 | `Selvania-Launcher-mac-x64.dmg` |
-| macOS arm64 | `Selvania-Launcher-mac-arm64.dmg` |
-| Linux x64 | `Selvania-Launcher-linux-x86_64.AppImage` |
+| Windows x64 | `Quantium-Launcher-win-x64.exe ` |
+| macOS x64 | `Quantium-Launcher-mac-x64.dmg` |
+| macOS arm64 | `Quantium-Launcher-mac-arm64.dmg` |
+| Linux x64 | `Quantium-Launcher-linux-x86_64.AppImage` |
 
 ---
