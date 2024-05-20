@@ -16,6 +16,7 @@ class Home {
         this.socialLick()
         this.instancesSelect()
         document.querySelector('.settings-btn').addEventListener('click', e => changePanel('settings'))
+        document.querySelector('.store-btn').addEventListener('click', e => changePanel('store'))
     }
 
     async news() {

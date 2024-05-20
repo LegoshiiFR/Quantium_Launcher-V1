@@ -1,7 +1,7 @@
 {
     "name": "Quantium_Launcher",
     "preductname": "Quantium Launcher",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Launcher Mincraft pour Quantium, serveur Minecraft RP Moddée.",
     "main": "src/app.js",
     "author": {
