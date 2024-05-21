@@ -222,9 +222,12 @@
     bottom: 0;
 }
 
-.player-options {
-    margin-bottom: 20px;
+
+.home-btn-div {
+    margin-top: 2vh;
+    cursor: pointer;
 }
+
 
 .play-elements {
     margin-bottom: 20px;

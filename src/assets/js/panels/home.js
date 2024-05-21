@@ -17,6 +17,8 @@ class Home {
         this.instancesSelect()
         document.querySelector('.settings-btn').addEventListener('click', e => changePanel('settings'))
         document.querySelector('.store-btn').addEventListener('click', e => changePanel('store'))
+        document.querySelector('.home-btn').addEventListener('click', e => changePanel('home'))
+
     }
 
     async news() {

@@ -6,6 +6,8 @@
 import Login from './panels/login.js';
 import Home from './panels/home.js';
 import Settings from './panels/settings.js';
+import Store from './panels/store.js';
+const DiscordRPC = require('discord-rpc');
 
 // import modules
 import { logger, config, changePanel, database, popup, setBackground, accountSelect, addAccount, pkg } from './utils.js';
@@ -26,8 +28,9 @@ class Launcher {
         if (await this.config.error) return this.errorConnect()
         this.db = new database();
         await this.initConfigClient();
-        this.createPanels(Login, Home, Settings);
+        this.createPanels(Login, Home, Settings, Store);
         this.startLauncher();
+        this.initDiscordRPC();
     }
 
     initLog() {
@@ -38,6 +41,25 @@ class Launcher {
             }
         })
         new logger(pkg.name, '#7289da')
+    }
+    initDiscordRPC() {
+        const rpc = new DiscordRPC.Client({ transport: 'ipc' });
+        rpc.on('ready', () => {
+            const presence = {
+                details: "> Serveur RP Moddé | Minecraft",
+                state: "Dans le launcher",
+                largeImageKey: 'logo',
+                largeImageText: "Quantium - MC RP Moddé",
+                smallImageKey: 'logo',
+                smallImageText: "By Legoshii",
+                buttons: [
+                    { label: "Discord", url: "https://quantium.legoshii.com/discord" },
+                    { label: "Télécharger", url: "https://quantium.legoshii.com" }
+                ]
+            };
+            rpc.setActivity(presence);
+        });
+        rpc.login({ clientId: "1175747477559840768" }).catch(console.error);
     }
 
     shortcut() {
