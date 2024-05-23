@@ -15,10 +15,16 @@ class Home {
         this.news()
         this.socialLick()
         this.instancesSelect()
+        this.bar()
         document.querySelector('.settings-btn').addEventListener('click', e => changePanel('settings'))
         document.querySelector('.store-btn').addEventListener('click', e => changePanel('store'))
         document.querySelector('.home-btn').addEventListener('click', e => changePanel('home'))
 
+    }
+    async bar(){
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.overflowY = 'hidden';
+        });
     }
 
     async news() {
